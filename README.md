@@ -1,0 +1,2 @@
+# HoroscoperAPI
+Horoscoper API
