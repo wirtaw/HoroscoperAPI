@@ -1,0 +1,23 @@
+{
+  "name": "HoroscoperAPI",
+  "version": "1.0.0",
+  "description": "Horoscoper API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wirtaw/HoroscoperAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wirtaw/HoroscoperAPI/issues"
+  },
+  "homepage": "https://github.com/wirtaw/HoroscoperAPI#readme",
+  "dependencies": {
+    "async": "^2.5.0"
+  }
+}
