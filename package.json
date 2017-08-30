@@ -4,7 +4,7 @@
   "description": "Horoscoper API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tap test/*.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/wirtaw/HoroscoperAPI#readme",
   "dependencies": {
     "async": "^2.5.0"
+  },
+  "devDependencies": {
+    "tap": "^10.7.2"
   }
 }
