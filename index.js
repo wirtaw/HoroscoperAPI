@@ -12,7 +12,7 @@ const routing = {
   '/user/name': () => user.name,
   '/user/age': () => user.getAge(null),
   '/user/*': (client, par) => 'parameter=' + par[0],
-  '/date/*': (client, par) => user.getAge(par[0])
+  '/date/*': (client, par) => user.getInfo(par[0])
 };
 
 const types = {
