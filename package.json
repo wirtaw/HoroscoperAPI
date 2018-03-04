@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/wirtaw/HoroscoperAPI#readme",
   "dependencies": {
-    "async": "^2.5.0"
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.81.0"
   },
   "devDependencies": {
     "tap": "^10.7.2"

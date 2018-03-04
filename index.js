@@ -5,6 +5,7 @@ global.api = {};
 api.http = require('http');
 const userModule = require('./src/user-interface.js');
 const user = userModule.user;
+const getInfo = userModule.getInfo;
 
 const routing = {
   '/': 'welcome to homepage',
@@ -12,7 +13,9 @@ const routing = {
   '/user/name': () => user.name,
   '/user/age': () => user.getAge(null),
   '/user/*': (client, par) => 'parameter=' + par[0],
-  '/date/*': (client, par) => user.getInfo(par[0])
+  '/date/*': (client, par) => getInfo(par[0], user, function(result) {
+    callback(result);
+  })
 };
 
 const types = {
