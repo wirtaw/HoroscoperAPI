@@ -4,6 +4,7 @@
   "description": "Horoscoper API",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "tap test/*.js"
   },
   "repository": {
@@ -19,9 +20,9 @@
   "homepage": "https://github.com/wirtaw/HoroscoperAPI#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "request": "^2.81.0"
+    "request": "^2.88.0"
   },
   "devDependencies": {
-    "tap": "^10.7.2"
+    "tap": "^12.4.0"
   }
 }
